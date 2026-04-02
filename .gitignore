@@ -1,0 +1,34 @@
+# --- API Keys & Secrets ---
+.env
+
+# --- Python & Dependencies ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/config.toml
