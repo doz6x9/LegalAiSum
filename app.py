@@ -15,7 +15,7 @@ client = genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 # --- FRONTEND UI SETUP ---
 st.set_page_config(page_title="AI Legal Document Summarizer", page_icon="⚖️", layout="centered")
 
-st.title("⚖️ AI Legal Document Summarizer")
+st.title("AI Legal Document Summarizer")
 st.markdown("Extract core clauses from legal contracts. **Choose your input method below.**")
 
 # --- AI LOGIC (Powered by Gemini) ---
@@ -28,7 +28,7 @@ def summarize_contract(text):
     3. Termination Conditions
     4. Financial Penalties (if any)
     
-    Format the output as a clean Markdown bulleted list. 
+    Format the output as a clean Markdown bulleted list. Provide small description and give reference from the file.
     Do not hallucinate. If a clause is missing, write "Not specified in document."
     """
 
