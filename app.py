@@ -13,7 +13,7 @@ MAX_PDF_PAGES = 80
 load_dotenv()
 client = genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 # --- FRONTEND UI SETUP ---
-st.set_page_config(page_title="AI Legal Document Summarizer", page_icon="⚖️", layout="centered")
+st.set_page_config(page_title="AI Legal Document Summarizer", page_icon="", layout="centered")
 
 st.title("AI Legal Document Summarizer")
 st.markdown("Extract core clauses from legal contracts. **Choose your input method below.**")
